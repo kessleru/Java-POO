@@ -1,6 +1,6 @@
 # 📚 Java POO - Exemplos Práticos
 
-Este repositório contém exemplos práticos dos principais conceitos de **Programação Orientada a Objetos (POO)** em Java, organizados em 4 exemplos progressivos.
+Este repositório contém exemplos práticos dos principais conceitos de **Programação Orientada a Objetos (POO)** em Java, organizados em 5 exemplos progressivos.
 
 ## 🎯 Objetivos
 
@@ -17,7 +17,8 @@ src/
 ├── Exemplo01/          # Conceitos básicos de POO
 ├── Exemplo02/          # Encapsulamento e visibilidade
 ├── Exemplo03/          # Interface e polimorfismo  
-└── Exemplo04/          # Relacionamento entre classes
+├── Exemplo04/          # Relacionamento entre classes
+└── Exemplo05/          # Herança e agregação
 ```
 
 ---
@@ -97,6 +98,26 @@ src/
 
 ---
 
+### 📖 Exemplo 05 - Sistema de Livros
+**Arquivos:** `Pessoa.java`, `Publicação.java`, `Livro.java`, `Main.java`
+
+**Conceitos POO aplicados:**
+- ✅ **Agregação**: `Livro` contém uma referência para `Pessoa` (leitor)
+- ✅ **Interface**: `Publicação` define contratos para publicações
+- ✅ **Implementação**: `Livro implements Publicação`
+- ✅ **Encapsulamento**: Atributos privados em todas as classes
+- ✅ **Composição**: Relacionamento entre objetos
+- ✅ **Polimorfismo**: Interface permite diferentes tipos de publicações
+
+**Funcionalidades:**
+- Cadastro de pessoas leitoras
+- Sistema de livros com controle de páginas
+- Operações de abrir, fechar, folhear livros
+- Navegação entre páginas (avançar/voltar)
+- Detalhamento completo de livros e leitores
+
+---
+
 ## 🏗️ Os 4 Pilares da POO Demonstrados
 
 ### 1. 🔒 Encapsulamento
@@ -110,10 +131,12 @@ src/
 ### 3. 🔄 Herança
 - **Aplicado implicitamente**: Todas as classes herdam de `Object`
 - **Override**: Sobrescrita de `toString()` no Exemplo 01
+- **Exemplo 05**: Demonstra relacionamentos e composição entre classes
 
 ### 4. 🎯 Polimorfismo
 - **Exemplo 03**: Implementação de interface permite polimorfismo
-- **Potencial**: Classes podem implementar `Controlador` de formas diferentes
+- **Exemplo 05**: Interface `Publicação` permite polimorfismo com diferentes tipos
+- **Potencial**: Classes podem implementar interfaces de formas diferentes
 
 ---
 
@@ -131,6 +154,7 @@ src/
    - `Exemplo02.Main`  
    - `Exemplo03.Main`
    - `Exemplo04.Main`
+   - `Exemplo05.Main`
 
 ---
 
@@ -141,8 +165,10 @@ src/
 - ✅ Construtores e inicialização
 - ✅ Getters e Setters (encapsulamento)
 - ✅ Interfaces e implementação
-- ✅ Relacionamento entre classes
+- ✅ Relacionamento entre classes (agregação e composição)
 - ✅ Validações e regras de negócio
+- ✅ Polimorfismo através de interfaces
+- ✅ Override de métodos
 - ✅ Boas práticas de POO em Java
 
 ---
@@ -155,6 +181,7 @@ src/
 | 02 - Conta Banco | ⭐⭐ Intermediário | Visibilidade, validações |
 | 03 - Controle Remoto | ⭐⭐⭐ Intermediário+ | Interface, polimorfismo |
 | 04 - Sistema de Lutas | ⭐⭐⭐⭐ Avançado | Relacionamentos, agregação |
+| 05 - Sistema de Livros | ⭐⭐⭐⭐ Avançado | Agregação, composição, interfaces |
 
 ---
 

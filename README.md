@@ -1,6 +1,6 @@
 # 📚 Java POO - Exemplos Práticos
 
-Este repositório contém exemplos práticos dos principais conceitos de **Programação Orientada a Objetos (POO)** em Java, organizados em 5 exemplos progressivos.
+Este repositório contém exemplos práticos dos principais conceitos de **Programação Orientada a Objetos (POO)** em Java, organizados em 7 exemplos progressivos.
 
 ## 🎯 Objetivos
 
@@ -18,7 +18,9 @@ src/
 ├── Exemplo02/          # Encapsulamento e visibilidade
 ├── Exemplo03/          # Interface e polimorfismo  
 ├── Exemplo04/          # Relacionamento entre classes
-└── Exemplo05/          # Herança e agregação
+├── Exemplo05/          # Herança e agregação
+├── Exemplo06/          # Herança e polimorfismo
+└── Exemplo07/          # Herança com classes abstratas
 ```
 
 ---
@@ -118,6 +120,46 @@ src/
 
 ---
 
+### 👥 Exemplo 06 - Sistema de Pessoas (Herança)
+**Arquivos:** `Pessoa.java`, `Aluno.java`, `Professor.java`, `Funcionario.java`, `Main.java`
+
+**Conceitos POO aplicados:**
+- ✅ **Herança**: Classes `Aluno`, `Professor` e `Funcionario` herdam de `Pessoa`
+- ✅ **Superclasse**: `Pessoa` como classe base com atributos e métodos comuns
+- ✅ **Especialização**: Cada subclasse adiciona atributos e métodos específicos
+- ✅ **Encapsulamento**: Atributos privados e métodos de acesso
+- ✅ **Reutilização de Código**: Aproveitamento da classe base
+- ✅ **Override**: Possibilidade de sobrescrita em subclasses
+
+**Funcionalidades:**
+- Cadastro de pessoas com informações básicas
+- Especialização para alunos com matrícula e curso
+- Professores com especialidade e salário
+- Funcionários com setor e status de trabalho
+- Demonstração prática da hierarquia de classes
+
+---
+
+### 🎓 Exemplo 07 - Sistema Acadêmico (Classes Abstratas)
+**Arquivos:** `Pessoa.java`, `Aluno.java`, `Bolsista.java`, `Visitante.java`, `Main.java`
+
+**Conceitos POO aplicados:**
+- ✅ **Classe Abstrata**: `Pessoa` como classe abstrata (não pode ser instanciada)
+- ✅ **Herança Multinível**: `Bolsista` herda de `Aluno` que herda de `Pessoa`
+- ✅ **Classe Final**: `Bolsista` como classe final (não pode ser herdada)
+- ✅ **Override Obrigatório**: Métodos abstratos devem ser implementados
+- ✅ **Polimorfismo**: Diferentes implementações de métodos abstratos
+- ✅ **Modificadores**: `protected`, `abstract`, `final`
+
+**Funcionalidades:**
+- Sistema acadêmico com diferentes tipos de pessoas
+- Alunos com pagamento de mensalidade
+- Bolsistas com tratamento especial para pagamentos
+- Visitantes com acesso limitado
+- Demonstração de hierarquia complexa e classes abstratas
+
+---
+
 ## 🏗️ Os 4 Pilares da POO Demonstrados
 
 ### 1. 🔒 Encapsulamento
@@ -129,9 +171,9 @@ src/
 - **Exemplo 03**: Interface define apenas o que é necessário conhecer
 
 ### 3. 🔄 Herança
-- **Aplicado implicitamente**: Todas as classes herdam de `Object`
-- **Override**: Sobrescrita de `toString()` no Exemplo 01
-- **Exemplo 05**: Demonstra relacionamentos e composição entre classes
+- **Exemplo 01**: Override de `toString()` (herança implícita de `Object`)
+- **Exemplo 06**: Herança simples com `Aluno`, `Professor` e `Funcionario` herdando de `Pessoa`
+- **Exemplo 07**: Herança multinível e classes abstratas (`Bolsista` > `Aluno` > `Pessoa`)
 
 ### 4. 🎯 Polimorfismo
 - **Exemplo 03**: Implementação de interface permite polimorfismo
@@ -155,6 +197,8 @@ src/
    - `Exemplo03.Main`
    - `Exemplo04.Main`
    - `Exemplo05.Main`
+   - `Exemplo06.Main`
+   - `Exemplo07.Main`
 
 ---
 
@@ -166,8 +210,12 @@ src/
 - ✅ Getters e Setters (encapsulamento)
 - ✅ Interfaces e implementação
 - ✅ Relacionamento entre classes (agregação e composição)
+- ✅ **Herança simples e multinível**
+- ✅ **Classes abstratas e métodos abstratos**
+- ✅ **Classes finais (final)**
+- ✅ **Modificadores de acesso (protected)**
 - ✅ Validações e regras de negócio
-- ✅ Polimorfismo através de interfaces
+- ✅ Polimorfismo através de interfaces e herança
 - ✅ Override de métodos
 - ✅ Boas práticas de POO em Java
 
@@ -179,9 +227,11 @@ src/
 |---------|-------------|---------------------|
 | 01 - Caneta | ⭐ Básico | Classes, objetos, métodos |
 | 02 - Conta Banco | ⭐⭐ Intermediário | Visibilidade, validações |
-| 03 - Controle Remoto | ⭐⭐⭐ Intermediário+ | Interface, polimorfismo |
-| 04 - Sistema de Lutas | ⭐⭐⭐⭐ Avançado | Relacionamentos, agregação |
-| 05 - Sistema de Livros | ⭐⭐⭐⭐ Avançado | Agregação, composição, interfaces |
+| 03 - Controle Remoto | ⭐⭐⭐ Intermediário | Interface, polimorfismo |
+| 04 - Sistema de Lutas | ⭐⭐⭐ Intermediário+ | Relacionamentos, agregação |
+| 05 - Sistema de Livros | ⭐⭐⭐ Intermediário+ | Agregação, composição, interfaces |
+| 06 - Sistema de Pessoas | ⭐⭐⭐⭐ Avançado | Herança, especialização |
+| 07 - Sistema Acadêmico | ⭐⭐⭐⭐ Avançado | Classes abstratas, herança multinível |
 
 ---
 

@@ -1,4 +1,4 @@
-package Exemplo07;
+package Guanabara.Exemplo07;
 
 public final class Bolsista extends Aluno {
     private float bolsa;

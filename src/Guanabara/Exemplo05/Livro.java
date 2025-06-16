@@ -1,4 +1,4 @@
-package Exemplo05;
+package Guanabara.Exemplo05;
 
 public class Livro implements Publicação{
     //Atributos

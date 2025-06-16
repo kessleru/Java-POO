@@ -1,4 +1,4 @@
-package Exemplo06;
+package Guanabara.Exemplo06;
 
 public class Pessoa {
     private String nome;

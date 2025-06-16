@@ -1,4 +1,4 @@
-package Exemplo02;
+package Guanabara.Exemplo02;
 
 public class ContaBanco {
 

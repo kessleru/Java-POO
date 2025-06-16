@@ -1,34 +1,52 @@
-# 📚 Java POO - Exemplos Práticos
+# 📚 Java POO - Curso Gustavo Guanabara
 
-Este repositório contém exemplos práticos dos principais conceitos de **Programação Orientada a Objetos (POO)** em Java, organizados em 7 exemplos progressivos.
+Este repositório contém exemplos práticos dos principais conceitos de **Programação Orientada a Objetos (POO)** em Java, baseados no excelente **Curso de POO Java** do **Professor Gustavo Guanabara** do canal **Curso em Vídeo**.
 
-## 🎯 Objetivos
+## 🎓 Sobre o Curso
 
-- Demonstrar os 4 pilares da POO na prática
+O **Curso de Programação Orientada a Objetos em Java** do Gustavo Guanabara é uma das melhores referências gratuitas para aprender POO em português. Com uma didática excepcional, o professor explica desde os conceitos mais básicos até os mais avançados de forma clara e prática.
+
+### 📺 Canal Curso em Vídeo
+- **Professor:** Gustavo Guanabara
+- **Canal:** [Curso em Vídeo](https://www.youtube.com/cursoemvideo)
+- **Curso:** Programação Orientada a Objetos (POO) em Java
+- **Playlist:** [POO Java - Curso em Vídeo](https://www.youtube.com/playlist?list=PLHz_AreHm4dkqe2aR0tQK74m8SFe-aGsY)
+
+## 🎯 Objetivos do Repositório
+
+- Implementar na prática todos os exemplos apresentados no curso do Guanabara
+- Demonstrar os 4 pilares da POO através de casos reais
 - Aplicar conceitos fundamentais como classes, objetos, atributos e métodos
-- Mostrar a evolução da complexidade dos conceitos
+- Mostrar a evolução da complexidade dos conceitos ao longo das aulas
+- Servir como material de consulta e estudo complementar ao curso
 
 ---
 
 ## 📁 Estrutura do Projeto
 
+Os exemplos estão organizados na pasta `Guanabara/`, seguindo a ordem das aulas do curso:
+
 ```
 src/
-├── Exemplo01/          # Conceitos básicos de POO
-├── Exemplo02/          # Encapsulamento e visibilidade
-├── Exemplo03/          # Interface e polimorfismo  
-├── Exemplo04/          # Relacionamento entre classes
-├── Exemplo05/          # Herança e agregação
-├── Exemplo06/          # Herança e polimorfismo
-└── Exemplo07/          # Herança com classes abstratas
+└── Guanabara/
+    ├── Exemplo01/          # Aula 04-05: Conceitos básicos de POO
+    ├── Exemplo02/          # Aula 06-07: Encapsulamento e visibilidade  
+    ├── Exemplo03/          # Aula 08-09: Interface e polimorfismo
+    ├── Exemplo04/          # Aula 10-11: Relacionamento entre classes
+    ├── Exemplo05/          # Aula 12-13: Herança e agregação
+    ├── Exemplo06/          # Aula 14-15: Herança e polimorfismo
+    └── Exemplo07/          # Aula 16-17: Herança com classes abstratas
 ```
+
+Cada exemplo corresponde a uma ou mais aulas do curso, implementando os conceitos apresentados pelo professor Guanabara de forma progressiva e didática.
 
 ---
 
-## 🔍 Exemplos e Princípios de POO
+## 🔍 Exemplos do Curso Guanabara
 
-### 📝 Exemplo 01 - Caneta
-**Arquivos:** `Caneta.java`, `Principal.java`
+### 📝 Exemplo 01 - Caneta (Aulas 04-05)
+**Arquivos:** `Caneta.java`, `Principal.java`  
+**Aulas correspondentes:** "Configurando o Ambiente" e "Criando Classes e Objetos"
 
 **Conceitos POO aplicados:**
 - ✅ **Encapsulamento**: Atributos privados (`private`)
@@ -45,8 +63,9 @@ src/
 
 ---
 
-### 🏦 Exemplo 02 - Conta Banco
-**Arquivos:** `ContaBanco.java`, `Main.java`
+### 🏦 Exemplo 02 - Conta Banco (Aulas 06-07)
+**Arquivos:** `ContaBanco.java`, `Main.java`  
+**Aulas correspondentes:** "Pilares da POO" e "Encapsulamento"
 
 **Conceitos POO aplicados:**
 - ✅ **Encapsulamento**: Diferentes níveis de visibilidade
@@ -65,8 +84,9 @@ src/
 
 ---
 
-### 📺 Exemplo 03 - Controle Remoto
-**Arquivos:** `Controlador.java`, `ControleRemoto.java`, `Main.java`
+### 📺 Exemplo 03 - Controle Remoto (Aulas 08-09)
+**Arquivos:** `Controlador.java`, `ControleRemoto.java`, `Main.java`  
+**Aulas correspondentes:** "Relacionamento entre Classes" e "Exercício Prático"
 
 **Conceitos POO aplicados:**
 - ✅ **Interface**: `Controlador` define contratos de métodos
@@ -82,8 +102,9 @@ src/
 
 ---
 
-### 🥊 Exemplo 04 - Sistema de Lutas
-**Arquivos:** `Lutador.java`, `Luta.java`, `Main.java`
+### 🥊 Exemplo 04 - Sistema de Lutas (Aulas 10-11)
+**Arquivos:** `Lutador.java`, `Luta.java`, `Main.java`  
+**Aulas correspondentes:** "Herança Parte 1" e "Herança Parte 2"
 
 **Conceitos POO aplicados:**
 - ✅ **Relacionamento entre Classes**: `Luta` utiliza objetos `Lutador`
@@ -100,8 +121,9 @@ src/
 
 ---
 
-### 📖 Exemplo 05 - Sistema de Livros
-**Arquivos:** `Pessoa.java`, `Publicação.java`, `Livro.java`, `Main.java`
+### 📖 Exemplo 05 - Sistema de Livros (Aulas 12-13)
+**Arquivos:** `Pessoa.java`, `Publicação.java`, `Livro.java`, `Main.java`  
+**Aulas correspondentes:** "Polimorfismo Parte 1" e "Polimorfismo Parte 2"
 
 **Conceitos POO aplicados:**
 - ✅ **Agregação**: `Livro` contém uma referência para `Pessoa` (leitor)
@@ -120,8 +142,9 @@ src/
 
 ---
 
-### 👥 Exemplo 06 - Sistema de Pessoas (Herança)
-**Arquivos:** `Pessoa.java`, `Aluno.java`, `Professor.java`, `Funcionario.java`, `Main.java`
+### 👥 Exemplo 06 - Sistema de Pessoas (Aulas 14-15)
+**Arquivos:** `Pessoa.java`, `Aluno.java`, `Professor.java`, `Funcionario.java`, `Main.java`  
+**Aulas correspondentes:** "Classes Abstratas" e "Exercício de Herança"
 
 **Conceitos POO aplicados:**
 - ✅ **Herança**: Classes `Aluno`, `Professor` e `Funcionario` herdam de `Pessoa`
@@ -140,8 +163,9 @@ src/
 
 ---
 
-### 🎓 Exemplo 07 - Sistema Acadêmico (Classes Abstratas)
-**Arquivos:** `Pessoa.java`, `Aluno.java`, `Bolsista.java`, `Visitante.java`, `Main.java`
+### 🎓 Exemplo 07 - Sistema Acadêmico (Aulas 16-17)
+**Arquivos:** `Pessoa.java`, `Aluno.java`, `Bolsista.java`, `Visitante.java`, `Main.java`  
+**Aulas correspondentes:** "Projeto Final Parte 1" e "Projeto Final Parte 2"
 
 **Conceitos POO aplicados:**
 - ✅ **Classe Abstrata**: `Pessoa` como classe abstrata (não pode ser instanciada)
@@ -182,63 +206,44 @@ src/
 
 ---
 
-## 🚀 Como Executar
+## 👨‍💻 Sobre o Curso e o Autor
 
-### Pré-requisitos
-- Java JDK 8 ou superior
-- IDE Java (IntelliJ IDEA, Eclipse, VS Code, etc.)
+### 🎓 Professor Gustavo Guanabara
+O Professor Gustavo Guanabara é referência no ensino de programação em português. Com mais de 20 anos de experiência em educação e tecnologia, criou o **Curso em Vídeo**, uma das maiores plataformas de ensino gratuito do Brasil.
 
-### Executando os exemplos
-1. Clone o repositório
-2. Abra o projeto na sua IDE
-3. Execute a classe `Main` ou `Principal` de cada exemplo:
-   - `Exemplo01.Principal`
-   - `Exemplo02.Main`  
-   - `Exemplo03.Main`
-   - `Exemplo04.Main`
-   - `Exemplo05.Main`
-   - `Exemplo06.Main`
-   - `Exemplo07.Main`
+### 📚 Curso de POO Java
+- **Duração:** 17 aulas completas
+- **Metodologia:** Teoria + Prática com exemplos reais
+- **Público:** Iniciantes em POO com conhecimento básico de Java
+- **Certificação:** Disponível no site Curso em Vídeo
 
----
+### 📋 Cronograma do Curso
+| Aula | Tópico | Exemplo Relacionado |
+|------|--------|-------------------|
+| 01 | O que é Programação Orientada a Objetos | - |
+| 02 | O que são Classes e Objetos | - |
+| 03 | Configurando o Ambiente (NetBeans) | - |
+| 04-05 | Criando Classes e Objetos | 📝 Exemplo 01 - Caneta |
+| 06-07 | Pilares da POO e Encapsulamento | 🏦 Exemplo 02 - Conta Banco |
+| 08-09 | Relacionamento entre Classes | 📺 Exemplo 03 - Controle Remoto |
+| 10-11 | Herança Parte 1 e 2 | 🥊 Exemplo 04 - Sistema de Lutas |
+| 12-13 | Polimorfismo Parte 1 e 2 | 📖 Exemplo 05 - Sistema de Livros |
+| 14-15 | Classes Abstratas | 👥 Exemplo 06 - Sistema de Pessoas |
+| 16-17 | Projeto Final Parte 1 e 2 | 🎓 Exemplo 07 - Sistema Acadêmico |
 
-## 📖 Conceitos Aprendidos
-
-- ✅ Definição de classes e criação de objetos
-- ✅ Atributos e métodos (públicos e privados)
-- ✅ Construtores e inicialização
-- ✅ Getters e Setters (encapsulamento)
-- ✅ Interfaces e implementação
-- ✅ Relacionamento entre classes (agregação e composição)
-- ✅ **Herança simples e multinível**
-- ✅ **Classes abstratas e métodos abstratos**
-- ✅ **Classes finais (final)**
-- ✅ **Modificadores de acesso (protected)**
-- ✅ Validações e regras de negócio
-- ✅ Polimorfismo através de interfaces e herança
-- ✅ Override de métodos
-- ✅ Boas práticas de POO em Java
+### 🔗 Links Úteis
+- **Canal no YouTube:** [Curso em Vídeo](https://www.youtube.com/cursoemvideo)
+- **Site Oficial:** [cursoemvideo.com](https://www.cursoemvideo.com)
+- **Playlist POO Java:** [Assista ao curso completo](https://www.youtube.com/playlist?list=PLHz_AreHm4dkqe2aR0tQK74m8SFe-aGsY)
 
 ---
 
-## 🎓 Nível de Complexidade
+## 👨‍💻 Implementação
 
-| Exemplo | Dificuldade | Conceitos Principais |
-|---------|-------------|---------------------|
-| 01 - Caneta | ⭐ Básico | Classes, objetos, métodos |
-| 02 - Conta Banco | ⭐⭐ Intermediário | Visibilidade, validações |
-| 03 - Controle Remoto | ⭐⭐⭐ Intermediário | Interface, polimorfismo |
-| 04 - Sistema de Lutas | ⭐⭐⭐ Intermediário+ | Relacionamentos, agregação |
-| 05 - Sistema de Livros | ⭐⭐⭐ Intermediário+ | Agregação, composição, interfaces |
-| 06 - Sistema de Pessoas | ⭐⭐⭐⭐ Avançado | Herança, especialização |
-| 07 - Sistema Acadêmico | ⭐⭐⭐⭐ Avançado | Classes abstratas, herança multinível |
+Projeto desenvolvido como estudo prático dos conceitos apresentados no **Curso de POO Java do Gustavo Guanabara**. Todos os exemplos foram implementados seguindo fielmente as explicações e exercícios propostos nas aulas.
+
+**Repositório criado para fins educacionais - baseado no excelente trabalho do Professor Gustavo Guanabara.**
 
 ---
 
-## 👨‍💻 Autor
-
-Projeto desenvolvido para estudos de Programação Orientada a Objetos em Java.
-
----
-
-**🎯 Objetivo:** Demonstrar na prática como os conceitos de POO se aplicam em cenários reais de programação!
+**🎯 Objetivo:** Implementar na prática todos os conceitos de POO apresentados no excepcional curso do Professor Gustavo Guanabara, demonstrando como os fundamentos da Programação Orientada a Objetos se aplicam em cenários reais de programação!

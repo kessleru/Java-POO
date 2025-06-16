@@ -1,14 +1,19 @@
-package Exemplo07;
+package Guanabara.Exemplo05;
 
-public abstract class Pessoa {
-    protected String nome;
-    protected int idade;
-    protected String sexo;
+public class Pessoa {
+    //Atributos
+    private String nome;
+    private int idade;
+    private String sexo;
 
-    public void fazerAniversario() {
-        this.idade++;
+    //Construtor
+    public Pessoa(String nome, int idade, String sexo) {
+        this.nome = nome;
+        this.idade = idade;
+        this.sexo = sexo;
     }
 
+    //Getter e Setter
     public String getNome() {
         return nome;
     }
@@ -33,12 +38,8 @@ public abstract class Pessoa {
         this.sexo = sexo;
     }
 
-    @Override
-    public String toString() {
-        return "Pessoa{" +
-                "nome='" + nome + '\'' +
-                ", idade=" + idade +
-                ", sexo='" + sexo + '\'' +
-                '}';
+    //Métodos
+    public void fazerAniversario() {
+        setIdade(getIdade() + 1);
     }
 }

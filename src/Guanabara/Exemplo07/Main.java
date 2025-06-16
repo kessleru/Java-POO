@@ -1,4 +1,4 @@
-package Exemplo07;
+package Guanabara.Exemplo07;
 
 public class Main {
     public static void main(String[] args) {

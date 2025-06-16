@@ -1,4 +1,4 @@
-package Exemplo05;
+package Guanabara.Exemplo05;
 
 public interface Publicação {
     public abstract void abrir();

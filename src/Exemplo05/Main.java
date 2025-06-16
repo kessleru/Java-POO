@@ -1,7 +1,5 @@
 package Exemplo05;
 
-import Exemplo04.Luta;
-
 public class Main {
     public static void main(String[] args) {
         Pessoa p[] = new Pessoa[3];

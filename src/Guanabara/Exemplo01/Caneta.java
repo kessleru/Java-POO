@@ -1,4 +1,5 @@
-package Guanabara.Exemplo01;
+
+package Exemplo01;
 
 public class Caneta {
 

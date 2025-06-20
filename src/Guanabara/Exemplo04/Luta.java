@@ -1,4 +1,4 @@
-package Guanabara.Exemplo04;
+package Exemplo04;
 
 import java.util.Random;
 

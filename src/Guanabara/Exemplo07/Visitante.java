@@ -1,4 +1,4 @@
-package Guanabara.Exemplo07;
+package Exemplo07;
 
 public class Visitante  extends Pessoa{
 

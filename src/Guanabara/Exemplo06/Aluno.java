@@ -1,4 +1,4 @@
-package Guanabara.Exemplo06;
+package Exemplo06;
 
 public class Aluno extends Pessoa{
     private int mat;
